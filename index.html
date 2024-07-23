@@ -19,13 +19,37 @@
     
         <input type="text" name="lastName" required>
         <label for="lastName">Enter Your Last Name:</label>
+
+        <input type="text" name="email" required>
+        <label for="email">Enter Your Email:</label>
+
+        <input type="text" name="password" required>
+        <label for="password">Create a New Password:</label>
+      </fieldset>
+    
+      <fieldset>
+          <legend>Account type (required)</legend>
+          <label><input id="personal" type="radio" name="personal" value="personal">Personal</label>
+          <label><input id="business" type="radio" name="business" value="business">Business</label>
+      </fieldset>
+
+      <fieldset>
+        <label>Upload a profile picture:</label>
+        <button type="profile">Choose File</button><input id="profile" type="??" name="profile" value="profile" placeholder="No file chosen">
         
-        <p>Enter Your Email:</p>
-        <input type="text" name="catphotourl" placeholder="cat photo URL" required>
-        <p>Create a New Password:</p>
-        <p>Provide a bio:</p>
-        <p>Provide a bio:</p>
+        <input type="text" name="age" required>
+        <label for="age">Input Your Age (years):</label>
+      </fieldset>
+
+      <fieldset>
+        <label for="hear">How did you hear about us?:</label>
+        <select id="hear" placeholder="(select one)">
+      </fieldset>
+
+      <fieldset>
         <input type="text" name="bio" placeholder="I like coding on the beach" required>
+        <label for="bio">Provide a bio:</label>
+        
         <input type="checkbox" id="terms" name="terms" value="terms">
         <label for="terms">I accept the <p>terms and conditions</p></label>
       </fieldset>
