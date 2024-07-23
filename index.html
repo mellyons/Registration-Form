@@ -12,8 +12,18 @@
     <h1>Registration Form</h1>
     <h2>Please fill out this form with the required information</h2>
 
-
+  <form>
       <fieldset>
+        <input type="text" name="firstName" required>
+        <label for="firstName">Enter Your First Name:</label>
+    
+        <input type="text" name="lastName" required>
+        <label for="lastName">Enter Your Last Name:</label>
+        
+        <p>Enter Your Email:</p>
+        <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+        <p>Create a New Password:</p>
+        <p>Provide a bio:</p>
         <p>Provide a bio:</p>
         <input type="text" name="bio" placeholder="I like coding on the beach" required>
         <input type="checkbox" id="terms" name="terms" value="terms">
@@ -24,6 +34,7 @@
     <section>
       <button type="submit">Submit</button>
     </section>
+  </form>
   </main>
 </body>
 </html>
